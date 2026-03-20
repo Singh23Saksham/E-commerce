@@ -1,4 +1,4 @@
-tyt// console.clear();
+// tyt// console.clear();
 
 let contentTitle;
 
@@ -9,7 +9,7 @@ function dynamicClothingSection(ob) {
 
   let boxLink = document.createElement("a");
   // boxLink.href = '#'
-  boxLink.href = "/contentDetails.html?" + ob.id;
+  boxLink.href = "./contentDetails.html?" + ob.id;
   // console.log('link=>' + boxLink);
 
   let imgTag = document.createElement("img");

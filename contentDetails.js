@@ -1,4 +1,4 @@
-console.clear()
+// console.clear()
 
 let id = location.search.split('?')[1]
 console.log(id)
